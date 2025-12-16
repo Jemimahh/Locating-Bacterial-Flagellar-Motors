@@ -85,3 +85,4 @@ DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 - Loss Curves: The notebook saves dfl_loss_curve.png to visualize training progress.
 
 - Submission: Generates submission.csv with columns: tomo_id, Motor axis 0 (z), Motor axis 1 (y), Motor axis 2 (x).
+- [Link to kaggle notebook line](https://www.kaggle.com/code/jemimaegwurube/byu-submission-notebook) 
